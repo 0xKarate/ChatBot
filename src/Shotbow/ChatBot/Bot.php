@@ -617,7 +617,6 @@ MySQL;
             }
         }
     }
- 
     protected function command_beta(Shotbow_ChatBot_User $sender, $arguments)
     {
         $message = 'Help us test 1.9! Connect to BETA.SHOTBOW.NET and try out our 1.9 gamemodes!';
