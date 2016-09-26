@@ -616,6 +616,7 @@ MySQL;
                 $this->postMessage('I\'m sorry, but I don\'t recognize that as a mathematical expression.  Feel free to try another.');
             }
         }
+    }
  
    protected function command_beta(Shotbow_ChatBot_User $sender, $arguments)
     {
