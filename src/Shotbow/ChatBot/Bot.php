@@ -238,7 +238,7 @@ MySQL;
                 'math'     => [$this, 'command_math'],
                 'beta'     => [$this, 'command_beta'],
                 'discord'  => [$this, 'command_discord'],
-                
+
             ];
         }
 
@@ -630,5 +630,5 @@ MySQL;
     {
         $message = 'Did you know Shotbow has it\'s own Discord? You can connect to our Discord [url=https://discordapp.com/invite/shotbow]here![/url]';
         $this->postMessage($message);
-        
-}
+
+    }
