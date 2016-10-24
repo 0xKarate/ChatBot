@@ -628,7 +628,7 @@ MySQL;
 
     protected function command_discord(Shotbow_ChatBot_User $sender, $arguments)
     {
-        $message = 'Did you know Shotbow has it\'s own Discord? You can connect to our Discord [url=https://discordapp.com/invite/shotbow]here![/url]';
+        $message = '[url=https://discord.gg/shotbow]Join our Discord server![/url]';
         $this->postMessage($message);
     }
 }
