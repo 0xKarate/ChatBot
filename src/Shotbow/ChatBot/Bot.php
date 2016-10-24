@@ -632,3 +632,4 @@ MySQL;
         $this->postMessage($message);
 
     }
+}
