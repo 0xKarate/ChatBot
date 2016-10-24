@@ -236,6 +236,7 @@ MySQL;
                 'contact'  => [$this, 'command_contact'],
                 'why'      => [$this, 'command_why'],
                 'math'     => [$this, 'command_math'],
+                'beta'     => [$this, 'command_beta'],
             ];
         }
 
@@ -476,7 +477,7 @@ MySQL;
     {
         $profileString = $this->getVoteProfileString();
 
-        $message = "Vote for our network on {$profileString}.  You'll even earn some XP!";
+        $message = "Vote for our network on {$profileString}.";
 
         $this->postMessage($message);
     }
@@ -485,7 +486,7 @@ MySQL;
     {
         $profileString = $this->getVoteProfileString();
 
-        $message = "[TIP] We need *YOU* to increase network visibility by voting on {$profileString}!  You'll even earn some XP!";
+        $message = "[TIP] We need *YOU* to increase network visibility by voting on {$profileString}!";
 
         $this->postMessage($message);
     }
@@ -615,5 +616,11 @@ MySQL;
                 $this->postMessage('I\'m sorry, but I don\'t recognize that as a mathematical expression.  Feel free to try another.');
             }
         }
+    }
+
+    protected function command_beta(Shotbow_ChatBot_User $sender, $arguments)
+    {
+        $message = 'Help us test 1.9! Connect to BETA.SHOTBOW.NET and try out our 1.9 gamemodes!';
+        $this->postMessage($message);
     }
 }
