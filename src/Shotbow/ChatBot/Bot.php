@@ -581,8 +581,7 @@ MySQL;
         $this->postMessage($message);
     }
 
-    protected function command_dj(Shotbow_ChatBot_User $sender, $arguments)
-    {
+    protected function command_dj(Shotbow_ChatBot_User $sender, $arguments)    {
         $message = "Plug.dj allows you to queue up music and listen to it with friends.  [url=https://plug.dj/the-shotbow-network-official]Come and join Shotbow's Party![/url]";
         $this->postMessage($message);
     }
@@ -630,6 +629,5 @@ MySQL;
     {
         $message = 'Did you know Shotbow has it\'s own Discord? You can connect to our Discord [url=https://discordapp.com/invite/shotbow]here![/url]';
         $this->postMessage($message);
-
     }
 }
