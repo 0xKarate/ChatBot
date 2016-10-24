@@ -625,7 +625,7 @@ MySQL;
         $message = 'Help us test 1.9! Connect to BETA.SHOTBOW.NET and try out our 1.9 gamemodes!';
         $this->postMessage($message);
     }
-    
+
     protected function command_discord(Shotbow_ChatBot_User $sender, $arguments)
     {
         $message = 'Did you know Shotbow has it\'s own Discord? You can connect to our Discord [url=https://discordapp.com/invite/shotbow]here![/url]';
